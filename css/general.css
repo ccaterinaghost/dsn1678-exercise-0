@@ -1,9 +1,67 @@
+body {
+	background-color: lightgray;
+}
+
+div {
+	border: 1px solid gray;
+	border-radius: 15px;
+	padding: 1em;
+	background-color: white;
+}
+
 h1 {
-	color: red;
-	font: 100%, sans-serif;
+	color: darkred;
+	font: 200%/1.5 Helvetica,sans-serif;
 }
 
 figcaption {
 	color: gray;
-	font: 50%, sans-serif;
+	font: 90%/1.5 Helvetica,sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+.normalparagraph {
+	font: 100%/1.5 Helvetica,sans-serif;
+
+}
+
+blockquote {
+	font: 100%/1.5 Times,serif;
+}
+
+
+cite {
+	font-style: italic;
+}
+
+
+h2 {
+	color:  darkred;
+	font: 100%/1.5 Helvetica,sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	font: 100%/1.5 Helvetica,sans-serif;
+}
+
+dl{
+	
+	/*overflow hidden is a clearfix, it reminds the <dl> to wrap around its floated children*/
+	overflow: hidden;
+}
+
+dt{
+	float: left;
+	clear: left;
+	width: 8em;
+}
+
+dd{
+	float: left;
+	margin: 0;
+	padding: 0;
 }
